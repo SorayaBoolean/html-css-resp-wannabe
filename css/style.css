@@ -137,3 +137,23 @@ img {
 
 /*mobile*/
 
+@media screen and (max-width:480px) {
+    .row{
+        flex-wrap: wrap;
+    }
+    }
+
+ @media screen and (max-width:480px) {
+    .lessons .col{
+        width: 100%;
+        }
+        }
+
+@media screen and (max-width:480px) {
+    .steps .col{
+         width: 100%;
+         }
+         }
+
+
+
