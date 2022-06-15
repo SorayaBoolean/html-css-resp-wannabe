@@ -129,11 +129,17 @@ img {
  ************************************************/
 
  /*Tablet*/
- @media screen and (max-width: 1139px) {
+ @media screen and (min-width: 769px)and(max-width: 1168px) {
       .container {
         width: 100%;
        }
     }
+
+    @media screen and (min-width: 768px) {
+        .container {
+          width: 100%;
+         }
+      }
 
 /*mobile*/
 
